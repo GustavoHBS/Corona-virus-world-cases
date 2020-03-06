@@ -36,7 +36,7 @@ app.listen(3000, function(){
 });
 
 function updateHourlyData(){
-	//requestCoronaUpdates();
+	requestCoronaUpdates();
 	setInterval(requestCoronaUpdates, HOUR_IN_MILISECONDS);
 }
 
